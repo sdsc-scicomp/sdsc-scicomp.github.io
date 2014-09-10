@@ -9,7 +9,8 @@ permalink:        pretty
 title:            SDSC SciComp
 tagline:          'Scientific computing at SDSC'
 description:      'Scientific computing applications group at the <a href="http://www.sdsc.edu" target="_blank">San Diego Supercomputer Center</a> at <a href="http://www.ucsd.edu" target="_blank">UC San Diego</a>.'
-url:              http://localhost:4000
+url:              http://scicomp.sdsc.edu
+#url:              http://localhost:4000
 baseurl:          /
 
 author:
