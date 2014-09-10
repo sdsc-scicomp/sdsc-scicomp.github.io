@@ -1,0 +1,16 @@
+- name: Robert Sinkovits
+  homepage: sinkovit
+  email: sinkovit@sdsc.edu
+  phone: "(858)8220995"
+  office: 415
+- name: Andrea Zonca
+  homepage: zonca
+  github: zonca
+  email: zonca@sdsc.edu
+  phone: "(805)2532299"
+  office: 405
+  description: "Andrea previously worked on analysing cosmological data from the Planck Satellite, he joined SDSC in 2013 where uses his expertise in scientific computing in projects ranging from Astrophysics to Chemistry."
+  details: 
+     - education:
+           - "Ph.D., Astrophysics, University of Milano"
+           - "Master, Aerospace Engineering, Polytechnic of Milano"
