@@ -3,8 +3,8 @@ layout: default
 ---
 
 <div class="page">
-  <h1 class="page-title">Andrea Zonca</h1>
-    <img src="photo.jpg" style="float:left;margin:10px" width=100px height=100px />
+  <h1 class="page-title">{{member.name}}</h1>
+    <img src="photo.jpg" style="float:left;margin:10px" width=150px height=150px />
 
     {% for member in site.data.staff %}
     {% if member.homepage == page.homepage %}
@@ -15,11 +15,17 @@ layout: default
             {{ member.email }}
         </a></li>
         <li>Office {{ member.office }}</li>
+        {% if member.twitter %}
+        <li><a href="http://twitter.com/{{member.twitter}}">Twitter</li>
+        {% endif %}
+        {% if member.blog %}
+        <li><a href="{{member.blog}}">Blog</li>
+        {% endif %}
 
     </ul>
 
     <p style="clear:both">{{ member.description }}</p>
-     {% endif %}
+    {% endif %}
 {% endfor %}
 
   {{ content }}
