@@ -1,4 +1,0 @@
----
-layout: staff
-title: Staff
----
